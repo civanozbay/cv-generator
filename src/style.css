@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  
+  display: flex;
+  justify-content: center;
+  background-color: rgb(222, 207, 187);
+}
+
+#root{
+  background-color: rgb(59, 163, 163);
+  border-radius: 0.2cm;
+  padding: 5px;
+}
+
+input{
+  border-radius: 0.2cm;
+}
+
+form {
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 40px;
+  gap:8px;
+  width:310px;
+  margin: 0 auto; 
+}
+
+.education{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+  padding-left: 40px;
+  width: 309px; 
+  margin: 0 auto; 
+}
+
+.contact {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 309px; 
+  gap : 10px
+}
+
+.personal-info {
+  display: flex;
+  gap: 16px;
+  
+}
+.work-experience{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+  padding-left: 40px;
+  width: 309px; 
+  margin: 0 auto; 
+}
+
+/* CV TEMPLATE */
+#cvPaper {
+  margin: auto;
+  height: 650px;
+  width: 460.42px;
+  background-color: #fff;
+  padding: 10px 30px 20px;
+  box-shadow: 0 0 10px -2px #00000061;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  margin-top: 50px;
+  border-radius: 0.5cm;
+
+}
+
+.personal-cv{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.title{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.profile-work{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  max-width: auto;
+}
+
+.profile{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+span{
+  display: block;
+}
